@@ -7,4 +7,5 @@ class EnvioEstandar implements EstrategiaEnvio{
         double costo = kg * 2.00;
         return costo;
     }
+
 }
