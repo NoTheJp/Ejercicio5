@@ -6,4 +6,9 @@ class EnvioInternacional implements EstrategiaEnvio {
         double costo = kg * 6.00 +10.00;
         return costo;
     }
+
+    @Override
+    public String nombreEntrega(){
+        return "Internacional";
+    }
 }
