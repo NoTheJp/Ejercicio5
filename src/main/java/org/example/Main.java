@@ -7,6 +7,9 @@ import java.util.Scanner;
 public class Main {
     public static Scanner teclado = new Scanner (System.in);
     public static void main(String[] args){
+
+
+        ///este rollo son las pruebas que hice bro, no sé si el profe quiera que se queden en el main o algo así, pero ps xd
         int opc;
         double kg;
         double total;
