@@ -9,9 +9,9 @@ class EnvioInternacional implements EstrategiaEnvio {
 
     @Override
     public double calcp(double kg) {
-        double costo =  kg * 6.00 +10.00;
+        double costo =  kg * 6.00;
 
-        if ( this.siono == false){
+        if (this.siono == false){
             costo = costo + 10.00;
             this.siono = true;
             return costo;
